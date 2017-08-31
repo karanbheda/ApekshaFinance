@@ -1,0 +1,52 @@
+<html>
+<head>
+<!-- Start VisualSlideShow.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine/css/slideshow.css" media="screen" />
+<script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+body{
+	background-color: red;
+}
+</style>
+<script type="text/javascript" src="engine/js/mootools.js"></script>
+<script type="text/javascript" src="engine/js/visualslideshow.js"></script>
+<!-- End VisualSlideShow.com HEAD section -->
+</head>
+<body>
+<!-- Start VisualSlideShow.com BODY section -->
+<div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>
+<input id="button" type="button" name="answer" value="Show Div" onclick="showDiv()" />
+<script type="text/javascript">
+function showDiv() {
+   if(document.getElementById('welcomeDiv').style.display == "none")
+        document.getElementById('welcomeDiv').style.display = "block";
+   else if(document.getElementById('welcomeDiv').style.display == "block")
+        document.getElementById('welcomeDiv').style.display = "none";
+   
+}
+
+$(document).mouseup(function (e)
+{
+    var container = $("#welcomeDiv");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
+</script>
+</body>
+</html>
