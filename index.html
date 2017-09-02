@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="icon" 
+      type="images/jpg" 
+      href="img/logo.png" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Apeksha</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" media="screen" rel="stylesheet">
+    <link href="css/stylish-portfolio-mobile.css" media="handheld" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        @font-face {
+         font-family: clarendon;
+         src: url(fonts/clarendonbt.ttf);
+        }
+        body{
+            font-family: clarendon;
+        }
+        .btn-secondary:hover{
+            color: #337AB7;
+            background: #A9A9A9;
+        }
+        .btn-secondary, .btn-secondary:active, .btn-secondary:focus{
+            color: #337AB7;
+        }
+
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Apeksha</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#team" onclick=$("#menu-close").click();>Core Team</a>
+            </li>
+            <li>
+                <a href="#location" onclick=$("#menu-close").click();>Where to find us?</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+          <!-- Overlay -->
+          <div class="overlay"></div>
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bs-carousel" data-slide-to="1"></li>
+            <li data-target="#bs-carousel" data-slide-to="2"></li>
+          </ol>
+          
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item slides active">
+              <div class="slide-1"></div>
+              <div class="hero">
+                <hgroup>
+                    <img class="img-responsive" src="img/logo.png" width="20%" height="20%" style="margin-right:auto;margin-left:auto">
+                    <h1>APEKSHA</h1>
+                    <h3>Financial Services & Consultancy Pvt. Ltd.</h3>
+                </hgroup>
+                <a href="#about"><button class="btn btn-primary" role="button">Find Out More     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+            <div class="item slides">
+              <div class="slide-2"></div>
+              <div class="hero">        
+                <hgroup>
+                    <h1>What We Do?</h1>        
+                    <h3>One Line Here</h3>
+                </hgroup>
+                <a href="#services"><button class="btn btn-primary" role="button">Explore      <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+            <div class="item slides">
+              <div class="slide-3"></div>
+              <div class="hero">        
+                <hgroup>
+                    <h1>Why Choose Us?</h1>        
+                    <h3>One Line Here</h3>
+                </hgroup>       
+                <a href="#whyus"><button class="btn btn-primary" role="button">See all features      <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </div> 
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Us</h2>
+                    <hr class="small" style="border-color:#337AB7;">
+                    <p class="lead" style="float:left; text-align: left; width: 70%">We are a Non Banking Finance Company and complete solution provider in long term / short term finance for corporates of varied industries. The company is engaged into corporate finance and specializes into providing banking solutions to sound corporates at the most competitive terms. Our company is managed by Chartered Accountants having huge experience in the financial sector and having contacts with most of the leading foreign / nationalised / private banks. Our clients includes more than 150 listed / deemed public limited companies.</p>
+                    <img class="img-responsive" src="img/logo.png" width="20%" height="20%" style="float:right;">
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="modal fade" id="tf" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="color:black;">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <img class="img-responsive" src="img/tradefinancing.jpg" style="float:right;margin:5%;height:40%;width:40%">
+                <h3 style="text-align:center;">Trade Finance</h3>
+                        <hr class="small" style="border-color:#337AB7;">
+                <ul>
+                            <li>Factoring (Export/Domestic)</li>
+                                <p>Factoring is a transaction in which a business sells its accounts receivable, or invoices, to a third party commercial financial company, also known as a “factor.” This is done so that the business can receive cash more quickly than it would by waiting 30 to 90 days for a customer payment. In Short,Factoring is a financial service whereby receivables are purchased by Factor and credit sales are converted to cash sales.</p>
+                            <li>LC/Buyers Credit</li>
+                                <p>As an importer, one can avail of Buyers Credit facility at very competitive rates. One can make the import payment to its overseas supplier by availing the buyers credit and can repay the lender at a later date. The funding is arranged from the overseas network branches and one can avail of this product in major currencies.</p>
+                            <li>Bill Discounting</li>
+                                <p>Bill Discounting is a discount/fee which a bank takes from a seller to release funds before the credit period ends. This bill is then presented to seller's customer and full amount is collected. Bill Discounting is mostly applicable in scenarios when a buyer buys goods from the seller and the payment is to be made through letter of credit.</p>
+                        </ul>
+            </div>
+        </div>
+          </div>
+    </div>
+    <div class="modal fade" id="wc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="color:black;">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <img class="img-responsive" src="img/workingcapital.jpg" style="float:right;margin:5%;height:40%;width:40%">
+                        <h3 style="text-align:center;">Working Capital</h3>
+                        <hr class="small" style="border-color:#337AB7;">
+                        <ul>
+                            <li>Corporate Loan</li>
+                                <p>Loan for meeting Corking Capital requirements of Corporates</p>
+                            <li>Short Term Loan</li>
+                                <p>Term Loan is a loan for a specific capital expenditure, of specific amount and has a specified repayment schedule. Term loans almost always mature between one and 10 years. Term Loans are sanctioned for setting up of new projects or expansions like factory building construction, plant & machinery, purchasing new offices, etc.</p>
+                        </ul>
+            </div>
+        </div>
+          </div>
+    </div>
+    <div class="modal fade" id="tl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="color:black;">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <img class="img-responsive" src="img/termloan.jpg" style="float:right;margin:5%;height:40%;width:40%">
+                        <h3 style="text-align:center;">Term Loan</h3>
+                        <hr class="small" style="border-color:#337AB7;">
+                        <ul>
+                            <li>Project Finance for Industry/Construction</li>
+                            <p>Term Loan is a loan for a specific capital expenditure, of specific amount and has a specified repayment schedule. Term loans almost always mature between one and 10 years, but may last as long as 30 years in some cases. A Term Loan usually involves an unfixed interest rate that will add additional balance to be repaid. Term Loans are sanctioned for setting up of new projects or expansions like factory building construction, plant & machinery, purchasing new offices, etc.</p>
+                        </ul>
+            </div>
+        </div>
+          </div>
+    </div>
+    
+    <div class="modal fade" id="sec" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="color:black;">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <img class="img-responsive" src="img/securitisation.jpg" style="float:right;margin:5%">
+                        <h3 style="text-align:center;">Securitisation</h3>
+                        <hr class="small" style="border-color:#337AB7;">
+                        <ul>
+                            <li>Discounting of Future Receivables - Trade/Rental</li>
+                           <p>Securitization is the process through which an issuer creates a financial instrument by combining other financial assets and then marketing different tiers of the repackaged instruments to investors, and this process can encompass any type of financial asset and promotes liquidity in the marketplace.<br>
+                            Mortgage-backed securities are a perfect example of securitization. By combining mortgages into one large pool, the issuer can divide the large pool into smaller pieces based on each individual mortgage's inherent risk of default and then sell those smaller pieces to investors.</p>
+                        </ul>
+
+            </div>
+        </div>
+          </div>
+    </div>
+        <div id="categories"class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Services</h2>
+                    <hr class="small">
+                
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-money fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                   <u> Trade Finance</u>
+                                </h4>
+                                <p>Click here to see image</p>
+                               <button class="btn btn-secondary" data-toggle="modal" data-target="#tf">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-bank fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <u>Working Capital</u>
+                                </h4>
+                                <p>Click here to see image</p>
+                                <button class="btn btn-secondary" data-toggle="modal" data-target="#wc">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-database fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <u>Term Loan</u>
+                                </h4>
+                                <p>Click here to see image</p>
+                                <button class="btn btn-secondary" data-toggle="modal" data-target="#tl">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-lock fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <u>Securitisation</u>
+                                </h4>
+                                <p>Click here to see image</p>
+                                <button class="btn btn-secondary" data-toggle="modal" data-target="#sec">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="large">
+                    <div id="whyus" class="row text-center">
+                    
+                        <h2>Why Choose Us?</h2>
+                        <hr class="small">
+                        <div class="row">
+                            <p>One Paragraph Here</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!--Carousel
+    
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:100%;height:auto;">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/bg.jpg" alt="Chania" height="345">
+      </div>
+
+      <div class="item">
+        <img src="img/callout.jpg" alt="Chania" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="img/portfolio-1.jpg" alt="Flower"  height="345">
+      </div>
+
+      <div class="item">
+        <img src="img/portfolio-2.jpg" alt="Flower" height="345">
+      </div>
+    </div>
+
+    
+   
+  </div>-->
+   
+
+    <!-- Portfolio -->
+    <section id="team" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Core Team</h2>
+                    <hr class="small" style="border-color:#337AB7;">
+                    <div class="row" style="margin-top:10%">
+
+                        <div class="team-img" style="float:left;">
+                            <div class="portfolio-item">                        
+                                    <img class="img-circle" src="img/1.jpg">
+                            </div>
+                            <div style="vertical-align:middle;" >
+                                <b>Mr. Paresh Ashra</b>
+                                <br>ACA
+                            </div>
+                        </div>
+                            <div class="team-content text-center">
+                                <p>Factoring is a transaction in which a business sells its accounts receivable, or invoices, to a third party commercial financial company, also known as a “factor.” This is done so that the business can receive cash more quickly than </p>
+                            </div>
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <!-- Call to Action 
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>-->
+
+    <!-- Map -->
+    <section id="location" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.5822208155626!2d72.91246407916779!3d19.09322266651999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cdced96d81%3A0xe278afa0a0b222c5!2sRajshree+Plaza%2C+Nityanand+Nagar%2C+Ghatkopar+West%2C+Mumbai%2C+Maharashtra+400086!5e0!3m2!1sen!2sin!4v1474723815482"></iframe>
+        
+        <br />
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Apeksha Financial Services &<br> Consultancy Pvt. Ltd.</strong>
+                    </h4>
+                    <p>206, Rajshree Plaza,
+                        <br>L.B.S. Marg, Ghatkopar(W), 
+                        <br>Mumbai - 400 086.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i>+022 2500 5909</li>
+                        <li><i class="fa fa-mobile fa-fw"></i>+91 98213 29510</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:apeksha_finance@hotmail.com">apeksha_finance@hotmail.com</a>
+                        </li>
+                    </ul>
+                    <a class="icons-lg fb-ic"><i class="fa fa-facebook"> </i></a>
+                    <!--Twitter-->
+                    <a class="icons-lg tw-ic"><i class="fa fa-twitter"> </i></a>
+                    <!--Google +-->
+                    <a class="icons-lg gplus-ic"><i class="fa fa-google-plus"> </i></a>
+                    <!--Linkedin-->
+                    <a class="icons-lg li-ic"><i class="fa fa-linkedin"> </i></a>
+                    <hr class="small" style="border-color:#337AB7">
+                    <p class="text-muted">Copyright &copy; Apeksha Financal Service & Consultancy 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <SCRIPT TYPE="text/javascript">
+        $('.modal').on('show.bs.modal', function (e) {
+            $('body').addClass('test');
+        });
+    </SCRIPT>
+    <script type="text/javascript">
+        function showtf() {
+           
+                document.getElementById('tfbox').style.visibility = "visible";
+                document.getElementById('categories').style.visibility = "hidden";
+           
+        }
+        $(document).mouseup(function (e)
+        {
+            var container = $("#tfbox");
+            var categories = $("#categories");
+            var extra1 = $("#wcbox");
+            var extra2 = $("#tlbox");
+            var extra3 = $("#secbox");
+
+            if ((!container.is(e.target) && container.has(e.target).length === 0) || (!extra1.is(e.target) && extra1.has(e.target).length === 0) || (!extra2.is(e.target) && extra2.has(e.target).length === 0) || (!extra3.is(e.target) && extra3.has(e.target).length === 0))
+            {
+                container.css('visibility','hidden');
+                categories.css('visibility','visible');
+            }
+        });
+</script>
+<script type="text/javascript">
+        function showsec() {
+           
+                document.getElementById('secbox').style.visibility = "visible";
+                document.getElementById('categories').style.visibility = "hidden";
+           
+        }
+        $(document).mouseup(function (e)
+        {
+            var container = $("#secbox");
+            var categories = $("#categories");
+
+            var extra1 = $("#wcbox");
+            var extra2 = $("#tlbox");
+            var extra3 = $("#tfbox");
+
+            if ((!container.is(e.target) && container.has(e.target).length === 0) || (!extra1.is(e.target) && extra1.has(e.target).length === 0) || (!extra2.is(e.target) && extra2.has(e.target).length === 0) || (!extra3.is(e.target) && extra3.has(e.target).length === 0))
+            {
+                container.css('visibility','hidden');
+                categories.css('visibility','visible');
+            }
+        });
+</script>
+ <script type="text/javascript">
+
+         function showwc() {
+           
+                document.getElementById('wcbox').style.visibility = "visible";
+                document.getElementById('categories').style.visibility = "hidden";
+           
+        }
+    
+        $(document).mouseup(function (e)
+        {
+            var container = $("#wcbox");
+            var categories = $("#categories");
+
+            var extra1 = $("#tfbox");
+            var extra2 = $("#tlbox");
+            var extra3 = $("#secbox");
+
+            if ((!container.is(e.target) && container.has(e.target).length === 0) || (!extra1.is(e.target) && extra1.has(e.target).length === 0) || (!extra2.is(e.target) && extra2.has(e.target).length === 0) || (!extra3.is(e.target) && extra3.has(e.target).length === 0))
+            {
+                container.css('visibility','hidden');
+                categories.css('visibility','visible');
+            }
+        });
+</script>
+<script type="text/javascript">
+
+         function showtl() {
+           
+                document.getElementById('tlbox').style.visibility = "visible";
+                document.getElementById('categories').style.visibility = "hidden";
+           
+        }
+    
+        $(document).mouseup(function (e)
+        {
+            var container = $("#tlbox");
+            var categories = $("#categories");
+
+            var extra1 = $("#wcbox");
+            var extra2 = $("#tfbox");
+            var extra3 = $("#secbox");
+
+            if ((!container.is(e.target) && container.has(e.target).length === 0) || (!extra1.is(e.target) && extra1.has(e.target).length === 0) || (!extra2.is(e.target) && extra2.has(e.target).length === 0) || (!extra3.is(e.target) && extra3.has(e.target).length === 0))
+            {
+                container.css('visibility','hidden');
+                categories.css('visibility','visible');
+            }
+        });
+</script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    
+    </script>
+
+</body>
+
+</html>
