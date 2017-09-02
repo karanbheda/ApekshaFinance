@@ -442,9 +442,10 @@ footer {
     to {background-position: 500px 0;}
 }
 
-.team-img{
-    
-}  
+.team-img img{
+    width:10%;
+    height:10%;
+}    
 
 .team-content{
     margin-top: 5%;
